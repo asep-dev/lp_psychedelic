@@ -668,14 +668,14 @@
         </footer> -->
         <script type="module" src="./index.js"></script>
         <script type="module">
-            // document.addEventListener("contextmenu", (event) =>
-            //     event.preventDefault(),
-            // );
-            // document.onkeydown = function (e) {
-            //     if (e.ctrlKey && e.keyCode === 85) {
-            //         return false;
-            //     }
-            // };
+            document.addEventListener("contextmenu", (event) =>
+                event.preventDefault(),
+            );
+            document.onkeydown = function (e) {
+                if (e.ctrlKey && e.keyCode === 85) {
+                    return false;
+                }
+            };
 
             document.addEventListener("DOMContentLoaded", function () {
                 var dropdown = document.querySelectorAll(".dropdown");

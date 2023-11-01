@@ -60,7 +60,7 @@
     }
 
     .services {
-        @apply md:before:mr-2 md:before:inline-block md:before:h-6 md:before:w-6 md:before:bg-[url('3.png')] md:before:bg-contain md:before:bg-no-repeat md:after:ml-2 md:after:inline-block md:after:h-6 md:after:w-6 md:after:bg-[url('3.png')] md:after:bg-contain md:after:bg-no-repeat;
+        @apply md:before:mr-2 md:before:inline-block md:before:h-6 md:before:w-6 md:before:bg-[url('/3.png')] md:before:bg-contain md:before:bg-no-repeat md:after:ml-2 md:after:inline-block md:after:h-6 md:after:w-6 md:after:bg-[url('/3.png')] md:after:bg-contain md:after:bg-no-repeat;
     }
 
     .dropdown.active > a i {

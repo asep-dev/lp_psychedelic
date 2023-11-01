@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Arctic</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- bg-white/30 backdrop-blur-md -->
+        <header class="">
+            <div
+                class="relative mx-auto flex max-w-6xl items-center justify-between px-5 py-2 lg:py-3"
+            >
+                <a href="#" class="">
+                    <img
+                        class="w-14 lg:w-20"
+                        src="https://static.wixstatic.com/media/5aa269_fea5d611bad64d39b4fa737697bbbec2~mv2.png/v1/fill/w_406,h_380,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/American500.png"
+                        alt=""
+                    />
+                </a>
+
+                <!-- Nav Desktop -->
+                <nav class="hidden text-sm font-medium lg:block">
+                    <ul class="flex flex-wrap gap-x-5">
+                        <li class="relative block">
+                            <a href="#" class="leading-[3] transition-all"
+                                >Psychedelic Substances</a
+                            >
+                        </li>
+                        <li class="relative block">
+                            <a href="#" class="leading-[3] transition-all"
+                                >Psychedelic Services</a
+                            >
+                        </li>
+                        <li class="relative block">
+                            <a href="#" class="leading-[3] transition-all"
+                                >Psychedelic Preparation</a
+                            >
+                        </li>
+                        <li class="group relative block">
+                            <a
+                                href="#"
+                                class="flex items-center gap-x-2 leading-[3] transition-all"
+                                >More
+                                <i
+                                    class="ri-arrow-down-s-line ml-auto mr-2 text-lg transition-all duration-500 group-hover:rotate-180"
+                                ></i
+                            ></a>
+                            <div
+                                class="absolute top-full z-10 hidden min-w-[220px] max-w-[220px] rounded-lg bg-white p-3 opacity-0 shadow-2xl transition-all duration-700 group-hover:block group-hover:opacity-100"
+                            >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Psychedelics Spirituality</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Psychedelic Resources</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Psychedelics Pharmaceuticals</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Psychedelic Diet</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Information Links</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Playlist</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Decriminalization</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Events</a
+                                >
+                                <a
+                                    href="#"
+                                    class="block rounded-md px-3 py-2 transition-all hover:bg-neutral-100"
+                                    >Sociaties & Organization</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Menu Mobile -->
+                <div
+                    id="menu-mobile"
+                    class="fixed left-0 right-0 top-16 z-10 hidden h-0 duration-700 lg:hidden"
+                >
+                    <nav
+                        class="flex h-[calc(100vh_-_4rem)] w-full flex-col overflow-auto bg-white px-20 pb-16 pt-3 text-sm font-medium"
+                    >
+                        <a
+                            href="#"
+                            class="border-b py-3 transition-all hover:text-gray-500 lg:border-none lg:py-0"
+                            >Home</a
+                        >
+                        <a
+                            href="#"
+                            class="border-b py-3 transition-all hover:text-gray-500 lg:border-none lg:py-0"
+                            >Psychedelic Substances</a
+                        >
+                        <a
+                            href="#"
+                            class="border-b py-3 transition-all hover:text-gray-500 lg:border-none lg:py-0"
+                            >Psychedelic Services</a
+                        >
+                        <a
+                            href="#"
+                            class="border-b py-3 transition-all hover:text-gray-500 lg:border-none lg:py-0"
+                            >Psychedelic Preparation</a
+                        >
+
+                        <div class="dropdown inline-block transition-all">
+                            <a
+                                href="#"
+                                class="flex items-center gap-x-2 border-b py-3 transition-all hover:text-gray-500 lg:border-none lg:py-0"
+                                >More
+                                <i
+                                    class="ri-add-line ml-auto mr-2 text-lg leading-none transition-all duration-500"
+                                ></i
+                            ></a>
+                            <div
+                                aria-expanded="true"
+                                class="dropdown-menu flex h-60 flex-col overflow-auto opacity-100 duration-500 aria-expanded:!h-0 aria-expanded:!overflow-hidden aria-expanded:!opacity-0"
+                            >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Psychedelics Spirituality</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Psychedelic Resources</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Psychedelics Pharmaceuticals</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Psychedelic Diet</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Information Links</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Playlist</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Decriminalization</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Events</a
+                                >
+                                <a
+                                    href="#"
+                                    class="ml-5 border-b py-3 lg:ml-0 lg:border-none"
+                                    >Sociaties & Organization</a
+                                >
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <button
+                    id="mobile-menu-button"
+                    type="button"
+                    title="menu"
+                    class="group inline-block h-6 w-6 overflow-hidden transition-all lg:hidden"
+                >
+                    <div
+                        class="ml-1.5 h-[2px] w-6 bg-neutral-800 duration-300"
+                    ></div>
+                    <div class="my-1.5 h-[2px] w-6 bg-neutral-800"></div>
+                    <div
+                        class="ml-3 h-[2px] w-6 bg-neutral-800 duration-300"
+                    ></div>
+                </button>
+
+                <a
+                    href="#"
+                    class="hidden items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-3 text-sm text-white transition-all hover:bg-neutral-600 lg:flex"
+                    ><i class="ri-phone-line align-middle"></i> Contact Us
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section
+                class="bg-none px-5 pt-16 md:bg-[url('hero.png')] lg:bg-cover lg:bg-no-repeat lg:px-0 lg:pt-28"
+            >
+                <div
+                    class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-20 md:grid-cols-2"
+                >
+                    <div class="relative order-2 md:order-none">
+                        <h1
+                            class="mb-10 text-center text-5xl font-extrabold drop-shadow-sm md:text-left lg:text-7xl"
+                        >
+                            <span
+                                class="inline-block bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text text-transparent"
+                                >American</span
+                            >
+                            Psychedelic Society
+                        </h1>
+                        <p
+                            class="mb-10 text-center text-2xl font-bold tracking-wide drop-shadow-md md:text-left"
+                        >
+                            Wellness For The Mind, Body, & Soul.
+                        </p>
+                        <div
+                            class="flex justify-center text-neutral-600 md:justify-start"
+                        >
+                            <h3
+                                class="border-r border-neutral-200 bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text pr-8 font-bold tracking-wider text-transparent lg:text-2xl"
+                            >
+                                LEARN
+                            </h3>
+                            <h3
+                                class="border-r border-neutral-200 bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text px-8 font-bold tracking-wider text-transparent lg:text-2xl"
+                            >
+                                HEAL
+                            </h3>
+                            <h3
+                                class="bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text pl-8 font-bold tracking-wider text-transparent lg:text-2xl"
+                            >
+                                CONNECT
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center">
+                        <div
+                            class="absolute left-1/2 top-1/2 -z-10 h-60 w-60 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-[#47daff] to-[#bd34fe] blur-[72px] md:h-96 md:w-96 md:blur-[100px]"
+                        ></div>
+                        <img
+                            class="w-60 md:w-full"
+                            src="https://static.wixstatic.com/media/5aa269_fea5d611bad64d39b4fa737697bbbec2~mv2.png/v1/fill/w_406,h_380,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/American500.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="px-5 py-28 lg:px-0">
+                <div class="mx-auto md:max-w-6xl">
+                    <div class="mb-20 text-center">
+                        <h2
+                            class="services mb-6 text-3xl font-extrabold text-neutral-800 md:text-5xl"
+                        >
+                            Psychedelic
+                            <span
+                                class="inline-block bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text text-transparent"
+                            >
+                                Services</span
+                            >
+                        </h2>
+                        <p class="mx-auto max-w-2xl text-neutral-800">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Blanditiis explicabo neque quas doloremque
+                            optio magni tempora amet exercitationem, quam saepe!
+                        </p>
+                    </div>
+
+                    <div
+                        class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"
+                    >
+                        <div
+                            class="relative rounded-xl border bg-white px-5 pb-5 pt-7 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div class="relative overflow-hidden">
+                                <img
+                                    class="mb-5 h-20"
+                                    src="./public/s1.webp"
+                                    alt=""
+                                />
+                                <h3
+                                    class="mb-2 text-xl font-bold"
+                                    title="Psychedelic Facilitators"
+                                >
+                                    Psychedelic Facilitators
+                                </h3>
+                                <p
+                                    class="mb-5 line-clamp-3 text-neutral-700 lg:text-sm"
+                                >
+                                    Psychedelic Facilitators is a group of
+                                    experienced professionals that will hold a
+                                    safe space for you during your journey.
+                                </p>
+                                <div class="text-right">
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-2.5 text-right text-xs text-neutral-50 before:absolute before:-left-56 before:inline-block before:h-1 before:w-48 before:bg-neutral-200 hover:opacity-90"
+                                        >Book a Sitter
+                                        <i
+                                            class="bx bx-up-arrow-alt rotate-45 align-middle"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="relative rounded-xl border bg-white px-5 pb-5 pt-7 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div class="relative overflow-hidden">
+                                <img
+                                    class="mb-5 h-20"
+                                    src="./public/s2.webp"
+                                    alt=""
+                                />
+                                <h3
+                                    class="mb-2 line-clamp-2 text-xl font-bold"
+                                    title="Psychedelic Integration Counseling"
+                                >
+                                    Psychedelic Integration Counseling
+                                </h3>
+                                <p
+                                    class="mb-5 line-clamp-3 text-neutral-700 lg:text-sm"
+                                >
+                                    Integrate your psychedelic experiences to
+                                    allow for life changing transformations and
+                                    deep healing.
+                                </p>
+                                <div class="text-right">
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-2.5 text-right text-xs text-neutral-50 before:absolute before:-left-56 before:inline-block before:h-1 before:w-48 before:bg-neutral-200 hover:opacity-90"
+                                        >Integrate
+                                        <i
+                                            class="bx bx-up-arrow-alt rotate-45 align-middle"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="relative rounded-xl border bg-white px-5 pb-5 pt-7 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div class="relative overflow-hidden">
+                                <img
+                                    class="mb-5 h-20"
+                                    src="./public/s3.webp"
+                                    alt=""
+                                />
+                                <h3
+                                    class="mb-2 text-xl font-bold"
+                                    title="Microdosing Consultation"
+                                >
+                                    Microdosing Consultation
+                                </h3>
+                                <p
+                                    class="mb-5 line-clamp-3 text-neutral-700 lg:text-sm"
+                                >
+                                    Microdosing consultations are a service
+                                    offered to individuals seeking guidance and
+                                    support for microdosing psychedelic
+                                    substances.
+                                </p>
+                                <div class="text-right">
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-2.5 text-right text-xs text-neutral-50 before:absolute before:-left-56 before:inline-block before:h-1 before:w-48 before:bg-neutral-200 hover:opacity-90"
+                                        >Get Support
+                                        <i
+                                            class="bx bx-up-arrow-alt rotate-45 align-middle"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="relative rounded-xl border bg-white px-5 pb-5 pt-7 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div class="relative overflow-hidden">
+                                <img
+                                    class="mb-5 h-20"
+                                    src="./public/s4.webp"
+                                    alt=""
+                                />
+                                <h3
+                                    class="mb-2 text-xl font-bold"
+                                    title="Psychedelic Consultation"
+                                >
+                                    Psychedelic Consultation
+                                </h3>
+                                <p
+                                    class="mb-5 line-clamp-3 text-neutral-700 lg:text-sm"
+                                >
+                                    Need help getting started? We are here for
+                                    you. Book a psychedelic consultation to
+                                    determine the best strategy for your
+                                    psychedelic needs.
+                                </p>
+                                <div class="text-right">
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-2.5 text-right text-xs text-neutral-50 before:absolute before:-left-56 before:inline-block before:h-1 before:w-48 before:bg-neutral-200 hover:opacity-90"
+                                        >Get Started
+                                        <i
+                                            class="bx bx-up-arrow-alt rotate-45 align-middle"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Events -->
+            <section class="px-5 lg:px-0">
+                <div class="mx-auto md:max-w-6xl">
+                    <div class="mb-20 text-center">
+                        <h2
+                            class="services mb-6 text-3xl font-extrabold text-neutral-800 md:text-5xl"
+                        >
+                            Online
+                            <span
+                                class="inline-block bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text text-transparent"
+                            >
+                                Events</span
+                            >
+                        </h2>
+                        <p class="mx-auto max-w-2xl text-neutral-800">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Blanditiis explicabo neque quas doloremque
+                            optio magni tempora amet exercitationem, quam saepe!
+                        </p>
+                    </div>
+
+                    <div
+                        class="grid grid-cols-1 justify-center gap-8 md:grid-cols-2"
+                    >
+                        <div
+                            class="relative rounded-xl border bg-white px-5 py-5 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div
+                                class="relative flex flex-col items-center gap-5 overflow-hidden md:flex-row"
+                            >
+                                <div
+                                    class="relative h-56 w-full flex-grow-0 overflow-hidden md:w-[40%]"
+                                >
+                                    <img
+                                        class="h-full w-full rounded-lg border object-cover"
+                                        src="https://secure.meetupstatic.com/photos/event/6/c/e/9/600_515667881.webp"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="absolute left-2 top-2 flex h-14 w-14 flex-col items-center rounded-md bg-white p-1 shadow-lg"
+                                    >
+                                        <span class="text-2xl font-bold"
+                                            >2</span
+                                        >
+                                        <span class="text-xs">Nov</span>
+                                    </div>
+                                </div>
+                                <div class="md:w-[60%]">
+                                    <h3
+                                        class="mb-2 text-2xl font-bold"
+                                        title="Psychedelic Facilitators"
+                                    >
+                                        Benefits of High Dose Journeys
+                                    </h3>
+                                    <p
+                                        class="mb-5 line-clamp-3 text-neutral-700"
+                                    >
+                                        High dose journeys are extremely
+                                        beneficial in treating depression,
+                                        anxiety, and other complex PTSD
+                                        symptoms. High dose journeys can allow
+                                        an individual to perceive the world with
+                                        a new perspective by disabling their
+                                        default mode network (DMN). Once the DMN
+                                        is disabled a new world of beauty and
+                                        understanding can emerge, creating a
+                                        dramatic change in one's life.
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-3 text-right text-xs text-neutral-50 hover:opacity-90"
+                                        >Read More
+                                        <i class="ri-arrow-right-up-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="relative rounded-xl border bg-white px-5 py-5 shadow-xl before:absolute before:-left-3 before:top-3 before:-z-10 before:block before:h-full before:w-full before:rounded-lg before:border before:bg-white before:duration-500 hover:before:top-1/2 hover:before:h-4/5 hover:before:-translate-y-1/2"
+                        >
+                            <div
+                                class="relative flex flex-col items-center gap-5 overflow-hidden md:flex-row"
+                            >
+                                <div
+                                    class="relative h-56 w-full flex-grow-0 overflow-hidden md:w-[40%]"
+                                >
+                                    <img
+                                        class="h-full w-full rounded-lg border object-cover"
+                                        src="https://secure.meetupstatic.com/photos/event/6/0/0/3/600_515844579.webp"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="absolute left-2 top-2 flex h-14 w-14 flex-col items-center rounded-md bg-white p-1 shadow-lg"
+                                    >
+                                        <span class="text-2xl font-bold"
+                                            >30</span
+                                        >
+                                        <span class="text-xs">Nov</span>
+                                    </div>
+                                </div>
+                                <div class="md:w-[60%]">
+                                    <h3
+                                        class="mb-2 text-2xl font-bold"
+                                        title="Psychedelic Facilitators"
+                                    >
+                                        Microdosing Sharing Circle
+                                    </h3>
+                                    <p
+                                        class="mb-5 line-clamp-3 text-neutral-700"
+                                    >
+                                        High dose journeys are extremely
+                                        beneficial in treating depression,
+                                        anxiety, and other complex PTSD
+                                        symptoms. High dose journeys can allow
+                                        an individual to perceive the world with
+                                        a new perspective by disabling their
+                                        default mode network (DMN). Once the DMN
+                                        is disabled a new world of beauty and
+                                        understanding can emerge, creating a
+                                        dramatic change in one's life.
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="relative inline-flex items-center gap-x-2 rounded-lg bg-gradient-to-br from-[#47daff] to-[#bd34fe] px-5 py-3 text-right text-xs text-neutral-50 hover:opacity-90"
+                                        >Read More
+                                        <i class="ri-arrow-right-up-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Viewer -->
+            <section class="px-5 pb-16 pt-28 lg:px-0">
+                <div class="mx-auto md:max-w-6xl">
+                    <div class="mb-20 text-center">
+                        <h2
+                            class="services mb-6 text-3xl font-extrabold text-neutral-800 md:text-5xl"
+                        >
+                            Sociaties &
+                            <span
+                                class="inline-block bg-gradient-to-br from-[#47daff] to-[#bd34fe] bg-clip-text text-transparent"
+                            >
+                                Practioners</span
+                            >
+                        </h2>
+                        <p class="mx-auto max-w-2xl text-neutral-800">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Blanditiis explicabo neque quas doloremque
+                            optio magni tempora amet exercitationem, quam saepe!
+                        </p>
+                    </div>
+
+                    <div
+                        class="rounded-xl bg-gradient-to-br from-[#47daff] to-[#bd34fe] p-2 shadow-xl"
+                    >
+                        <iframe
+                            class="h-[550px] w-full rounded-xl"
+                            src="https://viewer.mapme.com/0150d9c1-e6c3-4e94-b954-8910c2741131/"
+                            frameborder="0"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- <footer class="bg-neutral-800 pt-10">
+            <div class="mx-auto max-w-6xl">
+                <div
+                    class="flex items-center justify-between border-b border-neutral-600 pb-10 text-white"
+                >
+                    <div>
+                        <h1 class="relative mb-3 text-4xl font-extrabold">
+                            ArcticVIP
+                        </h1>
+                        <p>A unique experience in the arctic wilderness.</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <a
+                            href="#"
+                            class="inline-block h-10 w-10 rounded-lg bg-neutral-700 text-center text-xl leading-10"
+                        >
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a
+                            href="#"
+                            class="inline-block h-10 w-10 rounded-lg bg-neutral-700 text-center text-xl leading-10"
+                        >
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a
+                            href="#"
+                            class="inline-block h-10 w-10 rounded-lg bg-neutral-700 text-center text-xl leading-10"
+                        >
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a
+                            href="#"
+                            class="inline-block h-10 w-10 rounded-lg bg-neutral-700 text-center text-xl leading-10"
+                        >
+                            <i class="bx bx-envelope"></i>
+                        </a>
+                        <a
+                            href="#"
+                            class="inline-block h-10 w-10 rounded-lg bg-neutral-700 text-center text-xl leading-10"
+                        >
+                            <i class="bx bxl-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="flex items-center justify-between py-5 text-sm text-white"
+                >
+                    <div class="flex gap-x-6">
+                        <a href="#">Home</a>
+                        <a href="#">Our Tours</a>
+                        <a href="#">Sleeping & Living</a>
+                        <a href="#">Location & Weather</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <span
+                        >Copyright &copy; 2023 ArcticVIP, All right
+                        reserved.</span
+                    >
+                </div>
+            </div>
+        </footer> -->
+        <script type="module" src="./index.js"></script>
+        <script type="module">
+            document.addEventListener("contextmenu", (event) =>
+                event.preventDefault(),
+            );
+            document.onkeydown = function (e) {
+                if (e.ctrlKey && e.keyCode === 85) {
+                    return false;
+                }
+            };
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var dropdown = document.querySelectorAll(".dropdown");
+                // Menu Mobile
+                var mobileMenuButton =
+                    document.getElementById("mobile-menu-button");
+                var menuMobile = document.getElementById("menu-mobile");
+
+                mobileMenuButton.addEventListener("click", function (e) {
+                    menuMobile.classList.toggle("hidden");
+                    this.classList.toggle("active");
+                    document.body.classList.toggle("overflow-hidden");
+                });
+
+                dropdown.forEach((e) => {
+                    const dropDownMenu = e.querySelector(".dropdown-menu");
+                    e.addEventListener("click", function (e) {
+                        this.classList.toggle("active");
+                        if (
+                            dropDownMenu.getAttribute("aria-expanded") ==
+                            "false"
+                        ) {
+                            dropDownMenu.setAttribute("aria-expanded", "true");
+                        } else {
+                            dropDownMenu.setAttribute("aria-expanded", "false");
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
